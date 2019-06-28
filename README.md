@@ -12,6 +12,11 @@ Using this image will start up the jvm with the agent enabled and exposed on por
 | thenewmotion/yjp-openjdk-11-jre        | 1.3 | openjdk:11-jre           | 2018.04         |
 | thenewmotion/yjp-openjdk-8-jre-alpine  | 1.3 | openjdk:8-jre-alpine3.8  | 2018.04         |
 | thenewmotion/yjp-openjdk-11-jre-alpine | 1.3 | openjdk:11-jre-alpine3.8 | 2018.04         |
+|----------------------------------------|-----|--------------------------|-----------------|
+| thenewmotion/yjp-openjdk-8-jre         | 2.0 | openjdk:8-jre            | 2019.1          |
+| thenewmotion/yjp-openjdk-11-jre        | 2.0 | openjdk:11-jre           | 2019.1          |
+| thenewmotion/yjp-openjdk-8-jre-alpine  | 2.0 | openjdk:8-jre-alpine3.8  | 2019.1          |
+| thenewmotion/yjp-openjdk-11-jre-alpine | 2.0 | openjdk:11-jre-alpine3.8 | 2019.1          |
 
 
 ## Building images
