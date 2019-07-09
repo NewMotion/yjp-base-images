@@ -31,12 +31,12 @@ Make sure you are logged into docker with the tnmbuildagent docker hub accoubt
 
 Bash
 ```
-VERSION=2.0 ./build_images.sh
+VERSION=2.1 ./build_images.sh
 ```
 
 Fish
 ```
-env VERSION=2.0 ./build_images.sh
+env VERSION=2.1 ./build_images.sh
 ```
 
 This will build the images and push them to the newmotion docker hub account
