@@ -1,0 +1,7 @@
+FROM thenewmotion/yjp-openjdk-11-jre
+
+ADD target/universal/stage /app
+
+WORKDIR /app
+
+ENTRYPOINT ["/app/bin/test-app"]

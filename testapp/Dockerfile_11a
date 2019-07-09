@@ -1,0 +1,9 @@
+FROM thenewmotion/yjp-openjdk-11-jre-alpine
+
+RUN apk add --no-cache bash
+
+ADD target/universal/stage /app
+
+WORKDIR /app
+
+ENTRYPOINT ["/app/bin/test-app"]
