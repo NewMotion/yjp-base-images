@@ -19,10 +19,10 @@ With the 2019.1 Profiler:
 
 | Image                                      | Base Image                | Yourkit version |
 |--------------------------------------------|---------------------------|-----------------|
-| thenewmotion/yjp-openjdk-8-jre:2.0         | openjdk:8-jre             | 2019.1          |
-| thenewmotion/yjp-openjdk-11-jre:2.0        | openjdk:11-jre            | 2019.1          |
-| thenewmotion/yjp-openjdk-8-jre-alpine:2.0  | openjdk:8-jre-alpine3.8   | 2019.1          |
-| thenewmotion/yjp-openjdk-11-jre-alpine:2.0 | openjdk:11-jre-alpine3.10 | 2019.1          |
+| thenewmotion/yjp-openjdk-8-jre:2.1         | openjdk:8-jre             | 2019.1          |
+| thenewmotion/yjp-openjdk-11-jre:2.1        | openjdk:11-jre            | 2019.1          |
+| thenewmotion/yjp-openjdk-8-jre-alpine:2.1  | openjdk:8-jre-alpine3.8   | 2019.1          |
+| thenewmotion/yjp-openjdk-11-jre-alpine:2.1 | openjdk:11-jre-alpine3.10 | 2019.1          |
 
 
 ## Building images

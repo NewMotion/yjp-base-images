@@ -8,6 +8,6 @@ RUN apk add --no-cache curl unzip && \
     unzip -o -d /usr/local /tmp/yjp.zip  && \
     rm /tmp/yjp.zip
 
-ENV JAVA_OPTS="-agentpath:/usr/local/YourKit-JavaProfiler-2018.04/bin/linux-x86-64/libyjpagent.so=port=10001,listen=all"
+ENV JAVA_OPTS="-agentpath:/usr/local/YourKit-JavaProfiler-2019.1/bin/linux-x86-64/libyjpagent.so=port=10001,listen=all"
 
 EXPOSE 10001

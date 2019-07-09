@@ -6,6 +6,6 @@ RUN curl -fsSL https://www.yourkit.com/download/YourKit-JavaProfiler-2019.1-b133
     rm /tmp/yjp.zip && \
     rm -rf /var/lib/{apt,dpkg,cache,log}/
 
-ENV JAVA_OPTS="-agentpath:/usr/local/YourKit-JavaProfiler-2018.04/bin/linux-x86-64/libyjpagent.so=port=10001,listen=all"
+ENV JAVA_OPTS="-agentpath:/usr/local/YourKit-JavaProfiler-2019.1/bin/linux-x86-64/libyjpagent.so=port=10001,listen=all"
 
 EXPOSE 10001
