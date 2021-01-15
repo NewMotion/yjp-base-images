@@ -1,7 +1,5 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
-MAINTAINER DevOps <devops@newmotion.com>
-
-#RUN apk add --no-cache libc6-compat
+LABEL MAINTAINER="SRE <sre@newmotion.com>"
 
 RUN apk add --no-cache curl unzip && \
     curl -fsSL https://www.yourkit.com/download/YourKit-JavaProfiler-2019.1-b133.zip > /tmp/yjp.zip && \

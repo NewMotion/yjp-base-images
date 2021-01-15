@@ -1,5 +1,6 @@
 FROM openjdk:11-jre
-MAINTAINER DevOps <devops@newmotion.com>
+LABEL MAINTAINER="SRE <sre@newmotion.com>"
+
 
 RUN curl -fsSL https://www.yourkit.com/download/YourKit-JavaProfiler-2019.1-b133.zip > /tmp/yjp.zip && \
     unzip -o -d /usr/local /tmp/yjp.zip  && \

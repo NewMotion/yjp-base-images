@@ -1,5 +1,5 @@
 FROM openjdk:8-jre-alpine3.8
-MAINTAINER DevOps <devops@newmotion.com>
+LABEL MAINTAINER="SRE <sre@newmotion.com>"
 
 RUN apk add --no-cache libc6-compat
 

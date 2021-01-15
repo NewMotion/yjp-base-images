@@ -19,10 +19,10 @@ With the 2019.1 Profiler:
 
 | Image                                      | Base Image                | Yourkit version |
 |--------------------------------------------|---------------------------|-----------------|
-| thenewmotion/yjp-openjdk-8-jre:2.1         | openjdk:8-jre             | 2019.1          |
-| thenewmotion/yjp-openjdk-11-jre:2.1        | openjdk:11-jre            | 2019.1          |
-| thenewmotion/yjp-openjdk-8-jre-alpine:2.1  | openjdk:8-jre-alpine3.8   | 2019.1          |
-| thenewmotion/yjp-openjdk-11-jre-alpine:2.1 | openjdk:11-jre-alpine3.10 | 2019.1          |
+| thenewmotion/yjp-openjdk-8-jre:2.2         | openjdk:8-jre             | 2019.1          |
+| thenewmotion/yjp-openjdk-11-jre:2.2        | openjdk:11-jre            | 2019.1          |
+| thenewmotion/yjp-openjdk-8-jre-alpine:2.2  | openjdk:8-jre-alpine3.8   | 2019.1          |
+| thenewmotion/yjp-openjdk-11-jre-alpine:2.2 | openjdk:11-jre-alpine3.10 | 2019.1          |
 
 
 ## Building images
@@ -31,12 +31,12 @@ Make sure you are logged into docker with the tnmbuildagent docker hub accoubt
 
 Bash
 ```
-VERSION=2.1 ./build_images.sh
+VERSION=2.2 ./build_images.sh
 ```
 
 Fish
 ```
-env VERSION=2.1 ./build_images.sh
+env VERSION=2.2 ./build_images.sh
 ```
 
 This will build the images and push them to the newmotion docker hub account
